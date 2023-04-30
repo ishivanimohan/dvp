@@ -1,4 +1,4 @@
 - hosts: all
   tasks:
    - name: create new container
-     shell: docker container run -d --name dvpcontainer -p 9000:80 ishivanim/dvp-project:html-imagev1
+     shell: docker container run -d --name dvpcontainer1 -p 9000:80 ishivanim/dvp-project:html-imagev1
